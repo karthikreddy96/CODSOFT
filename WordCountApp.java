@@ -37,7 +37,7 @@ public class WordCountApp {
 
         System.out.println("Total word count is : " + wordCount);
 
-        in.close();
+        // in.close();
     }
 
     private static String readFile(String filePath) throws IOException {
